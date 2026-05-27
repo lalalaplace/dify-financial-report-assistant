@@ -11,8 +11,9 @@ flowchart LR
     C --> D[FastAPI 查询接口]
     E[用户自然语言提问] --> F[Dify 工作流]
     F --> D
-    D --> H[FastAPI 图表接口]
-    H --> G
+    D --> F
+    F --> H[FastAPI 图表接口]
+    H --> F
     F --> G[自然语言回答 / 图表输出]
 ```
 
@@ -43,6 +44,8 @@ flowchart LR
 共 7 步，脚本位于 `scripts/`，详见 `docs/data_pipeline.md`。
 
 ## Dify 工作流
+
+<img src="docs/images/workflow.png" alt="Dify 工作流截图" width="900">
 
 `dify/workflow_export.yml` 为脱敏模板，主链路：
 
