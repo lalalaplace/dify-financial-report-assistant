@@ -1,0 +1,45 @@
+# 环境与密钥
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# 本地输入数据与大文件
+input/
+全部数据/
+数据/
+*.zip
+*.7z
+*.rar
+
+# 批量财报、研报与缓存
+*.pdf
+!sample_data/reports/*.pdf
+output/
+logs/
+statement_json/
+statement_json_stale/
+model_backfill_cache/
+pdf_text_cache/
+manual_backfill/
+missing_analysis/
+
+# 本地导出与临时文件
+*.log
+*.tmp
+*.bak
+~$*
+
+# 系统文件
+.DS_Store
+Thumbs.db

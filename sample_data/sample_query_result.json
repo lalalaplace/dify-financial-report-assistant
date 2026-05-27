@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "columns": [
+    "company_name",
+    "stock_code",
+    "report_year",
+    "report_period",
+    "net_profit"
+  ],
+  "rows": [
+    [
+      "示例公司",
+      "000999",
+      2024,
+      "FY",
+      234567.89
+    ]
+  ],
+  "row_count": 1,
+  "message": ""
+}

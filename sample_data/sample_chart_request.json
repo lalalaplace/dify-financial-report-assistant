@@ -1,0 +1,21 @@
+{
+  "question": "示例公司近三年营业收入趋势",
+  "chart_type": "line",
+  "title": "示例公司营业收入趋势",
+  "x_field": "report_year",
+  "y_field": "total_operating_revenue",
+  "records": [
+    {
+      "report_year": 2022,
+      "total_operating_revenue": 980000
+    },
+    {
+      "report_year": 2023,
+      "total_operating_revenue": 1120000
+    },
+    {
+      "report_year": 2024,
+      "total_operating_revenue": 1234567.89
+    }
+  ]
+}

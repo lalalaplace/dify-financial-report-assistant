@@ -1,0 +1,26 @@
+{
+  "file_id": 1,
+  "stock_code": "000999",
+  "stock_abbr": "示例公司",
+  "report_year": 2024,
+  "report_period": "FY",
+  "statement_type": "income",
+  "fields": [
+    {
+      "field_code": "total_operating_revenue",
+      "field_name_cn": "营业总收入",
+      "value_text": "1234567.89",
+      "unit": "万元",
+      "source_page_range": "10-11",
+      "extract_method": "rule"
+    },
+    {
+      "field_code": "net_profit",
+      "field_name_cn": "净利润",
+      "value_text": "234567.89",
+      "unit": "万元",
+      "source_page_range": "10-11",
+      "extract_method": "rule"
+    }
+  ]
+}

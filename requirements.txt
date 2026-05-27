@@ -1,0 +1,9 @@
+pandas
+# PyMuPDF 提供 fitz 模块
+PyMuPDF
+psycopg2-binary
+python-dotenv
+fastapi
+uvicorn
+pydantic
+matplotlib
