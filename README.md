@@ -1,6 +1,15 @@
 # 财报智能问数助手
 
-从上市公司财报 PDF 中自动抽取财务数据，存入 PostgreSQL，通过 Dify 工作流实现自然语言问数。支持单公司指标查询、跨期趋势分析和多公司对比等常见财报分析场景。
+说明：本仓库为早期 Dify 原型验证版本，主要用于探索“上市公司财报智能问数”场景下的基础问答流程、知识库配置和应用编排方式。
+当前项目已停止维护，后续版本已迁移至自研 LangGraph / LangChain 架构。
+
+## 项目状态
+
+本仓库属于历史原型项目，不再作为当前主版本维护。
+
+当前正式版本请查看：
+
+[financial-report-qa-agent](https://github.com/lalalaplace/financial-report-qa-agent)
 
 ## 系统架构
 
